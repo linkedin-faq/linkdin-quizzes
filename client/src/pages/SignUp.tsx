@@ -5,16 +5,13 @@ import {
   faFacebook,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { FaGooglePlusG } from "react-icons/fa";
 import "./styles/sign-up.scss";
 
 const SignUp = function () {
-  const [container, setContainer] = useState("");
+  const [container, setContainer] = useState<string>("");
 
   const handleSignUp = () => {
-    console.log(container);
     setContainer("right-panel-active");
-    console.log(container);
   };
   const handleSignIn = () => {
     setContainer("");

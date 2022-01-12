@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./state/pages/Home";
-import About from "./state/pages/About";
-import SignUp from "./state/pages/SignUp";
-import NavBar from "./state/components/NavBar";
-import Services from "./state/pages/Services";
-import ContactUs from "./state/pages/ContactUs";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import SignUp from "./pages/SignUp";
+import NavBar from "./components/NavBar";
+import Services from "./pages/Services";
+import ContactUs from "./pages/ContactUs";
 
 const App = function () {
   return (
