@@ -1,10 +1,7 @@
 import mongoose, { ConnectOptions } from "mongoose";
-import dotenv from "dotenv";
+import config from "../utils/config";
 
-dotenv.config();
-const { MONGO_URI } = process.env || "undefined";
-
-// type ConnectOptions = mongodb.MongoClientOptions;
+const MONGO_URI = config.dbUrl;
 
 const mongo: Promise<void> = mongoose
   .connect(
