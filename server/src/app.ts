@@ -3,11 +3,13 @@ import * as bodyParser from "body-parser";
 import cors from "cors";
 import morgan from "morgan";
 import passport from "passport";
+import path from "path";
 import cookieSession from "cookie-session";
 import morganHandler from "./middlewares/morgan";
 import errorHandler from "./middlewares/errorHandlers";
 import authRouter from "./routes/authRouter";
 import "./utils/config/passport";
+import homePage from "./controllers/homePageStatic";
 
 const app = express();
 
@@ -28,11 +30,9 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use("/auth", authRouter);
+app.use(express.static(path.resolve("../client/build")));
 
-app.get("/", (_req, res) => {
-  console.log("im here");
-  res.send("hello world");
-});
+app.get("/", homePage);
 
 app.use(errorHandler);
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGooglePlusG,
@@ -23,21 +24,30 @@ const SignUp = function () {
           <form action="#">
             <h1>Create Account</h1>
             <div className="social-container">
-              <div className="social">
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  style={{ color: "darkBlue" }}
-                />
-              </div>
-              <div className="social">
-                <FontAwesomeIcon
-                  icon={faGooglePlusG}
-                  style={{ color: "crimson" }}
-                />
-              </div>
-              <div className="social">
-                <FontAwesomeIcon icon={faLinkedin} style={{ color: "blue" }} />
-              </div>
+              <a href="http://localhost:3001/auth/facebook">
+                <div className="social">
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    style={{ color: "darkBlue" }}
+                  />
+                </div>
+              </a>
+              <a href="http://localhost:3001/auth/google">
+                <div className="social">
+                  <FontAwesomeIcon
+                    icon={faGooglePlusG}
+                    style={{ color: "crimson" }}
+                  />
+                </div>
+              </a>
+              <a href="http://localhost:3001/auth/linkedin">
+                <div className="social">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{ color: "blue" }}
+                  />
+                </div>
+              </a>
             </div>
             <span>or use your email for registration</span>
             <input type="text" placeholder="Name" />
@@ -50,21 +60,30 @@ const SignUp = function () {
           <form action="#">
             <h1>Sign in</h1>
             <div className="social-container">
-              <div className="social">
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  style={{ color: "darkblue" }}
-                />
-              </div>
-              <div className="social">
-                <FontAwesomeIcon
-                  icon={faGooglePlusG}
-                  style={{ color: "crimson" }}
-                />
-              </div>
-              <div className="social">
-                <FontAwesomeIcon icon={faLinkedin} style={{ color: "blue" }} />
-              </div>
+              <a href="http://localhost:3001/auth/facebook">
+                <div className="social">
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    style={{ color: "darkblue" }}
+                  />
+                </div>
+              </a>
+              <a href="http://localhost:3001/auth/google">
+                <div className="social">
+                  <FontAwesomeIcon
+                    icon={faGooglePlusG}
+                    style={{ color: "crimson" }}
+                  />
+                </div>
+              </a>
+              <a href="http://localhost:3001/auth/linkedin">
+                <div className="social">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{ color: "blue" }}
+                  />
+                </div>
+              </a>
             </div>
             <span>or use your account</span>
             <input type="email" placeholder="Email" />

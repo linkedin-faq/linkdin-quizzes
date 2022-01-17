@@ -11,4 +11,6 @@ export default {
   googleClientId: process.env.GOOGLE_CLIENT_ID || "",
   facebookClientId: process.env.FACEBOOK_CLIENT_ID || "",
   facebookSecret: process.env.FACEBOOK_CLIENT_SECRET || "",
+  linkedinClientId: process.env.LINKEDIN_CLIENT_ID || "",
+  linkedinSecret: process.env.LINKEDIN_SECRET || "",
 };
