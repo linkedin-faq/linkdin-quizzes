@@ -9,7 +9,7 @@ import morganHandler from "./middlewares/morgan";
 import errorHandler from "./middlewares/errorHandlers";
 import authRouter from "./routes/authRouter";
 import "./utils/config/passport";
-import homePage from "./controllers/homePageStatic";
+import render from "./middlewares/render";
 
 const app = express();
 
@@ -29,10 +29,14 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-app.use("/auth", authRouter);
 app.use(express.static(path.resolve("../client/build")));
+app.use("/auth", authRouter);
 
-app.get("/", homePage);
+app.get("/", render);
+app.get("/sign-up", render);
+app.get("/about", render);
+app.get("/services", render);
+app.get("/contact-us", render);
 
 app.use(errorHandler);
 

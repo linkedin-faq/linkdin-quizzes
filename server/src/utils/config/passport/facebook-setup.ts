@@ -7,7 +7,7 @@ passport.use(
     {
       clientID: config.facebookClientId,
       clientSecret: config.facebookSecret,
-      callbackURL: "http://localhost:3001/google/callback",
+      callbackURL: "http://localhost:3001/auth/facebook/callback",
     },
     (_accessToken, _refreshToken, profile, done) =>
       /*

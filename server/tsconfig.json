@@ -10,6 +10,9 @@
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "typeRoots": ["./node_modules/@types", "src/@types"]
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "ts-node": {
+    "files": true
   }
 }
