@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+.checkbox-container {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    font-family: "Sora", sans-serif;
+    background-color: #ddd;
+    color: #000;
+    margin: 0;
+    padding: 3em 1em;
+    display: grid;
+    place-items: center;
+    perspective: 750px;
+
+    *:not(:empty) {
+        transform-style: preserve-3d;
+    }
+
+    .checkboxes {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .flipBox {
+        position: relative;
+        display: flex;
+        text-align: left;
+        margin: 1em auto;
+        cursor: pointer;
+
+        $clr1: green;
+        $clr2: white;
+
+        &:active > &_boxOuter {
+            height: 25%;
+        }
+
+        & span {
+            padding-left: 1.25em;
+        }
+
+        & > input {
+            appearance: none;
+            left: -100vmax;
+            top: -100vmax;
+
+            &:checked {
+                & ~ .flipBox_boxOuter {
+                    animation: flipBox1 1s forwards linear;
+                    .flipBox_box {
+                        animation: flipBox2 1s forwards ease-in-out;
+                    }
+                }
+                & ~ .flipBox_shadow {
+                    animation: flipBox3 1s forwards ease-in-out;
+                }
+            }
+
+            &:not(:checked) {
+                & ~ .flipBox_boxOuter {
+                    animation: flipBox4 1s forwards linear;
+                    .flipBox_box {
+                        animation: flipBox5 1s forwards ease-in-out;
+                    }
+                }
+                & ~ .flipBox_shadow {
+                    animation: flipBox6 1s forwards ease-in-out;
+                }
+            }
+
+            &:disabled {
+                & ~ * {
+                    cursor: not-allowed;
+                }
+
+                & ~ .flipBox_boxOuter {
+                    height: 0%;
+
+                    .flipBox_box > div:nth-child(6) {
+                        background-color: #ccc;
+                    }
+                    .flipBox_box > div:nth-child(-n + 5),
+                    & ~ .flipBox_shadow {
+                        display: none;
+                    }
+                }
+            }
+
+            &:focus-visible {
+                & ~ span {
+                    outline: 1px #000 solid;
+                    outline-offset: 0.25em;
+                }
+            }
+        }
+
+        &_boxOuter {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 1em;
+            height: 1em;
+            transform-origin: top;
+            transition: height 0.25s;
+        }
+
+        &_box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 1em;
+            height: 100%;
+            transform: translate(-50%, -50%);
+
+            & > div {
+                position: absolute;
+                width: 1em;
+                box-shadow: 0 0 0.25em #0007 inset;
+
+                @for $i from 0 to 4 {
+                    &:nth-child(#{$i + 1}) {
+                        background-image: linear-gradient($clr1, $clr2);
+                        transform: rotateY(#{$i * 90}deg) translateX(50%) rotateY(90deg);
+                        height: 100%;
+                    }
+                }
+
+                &:nth-child(5) {
+                    background-color: $clr1;
+                    transform: rotateX(90deg) translateY(-0.5em);
+                    transform-origin: top;
+                    height: 1em;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-color: $clr2;
+                        clip-path: polygon(
+                            12.5% 56.25%,
+                            25% 43.75%,
+                            37.5% 56.25%,
+                            75% 18.75%,
+                            87.5% 31.25%,
+                            37.5% 81.25%,
+                            12.5% 56.25%
+                        );
+                    }
+                }
+
+                &:nth-child(6) {
+                    bottom: 0;
+                    background-color: $clr2;
+                    transform: rotateX(90deg) translateY(0.5em);
+                    transform-origin: bottom;
+                    height: 1em;
+                }
+            }
+        }
+
+        &_shadow {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 1em;
+            height: 1em;
+            transform: translateY(-50%) translateZ(-1px);
+            background-color: #0007;
+            filter: blur(0.2em);
+        }
+
+        @keyframes flipBox1 {
+            0%,
+            100% {
+                transform: rotateX(90deg);
+                animation-timing-function: ease-out;
+            }
+            50% {
+                transform: rotateX(90deg) translateY(2em);
+                animation-timing-function: ease-in;
+            }
+        }
+
+        @keyframes flipBox2 {
+            from {
+                transform: translate(-50%, -50%) rotateX(0deg) rotateY(180deg);
+            }
+            to {
+                transform: translate(-50%, -50%) rotateX(-180deg) rotateY(0deg);
+            }
+        }
+
+        @keyframes flipBox3 {
+            0%,
+            100% {
+                transform: translateY(-50%) translateZ(-1px) scale(1);
+                animation-timing-function: ease-out;
+            }
+            50% {
+                transform: translateY(-50%) translateZ(-1px) scale(1.5);
+                animation-timing-function: ease-in;
+            }
+        }
+
+        @keyframes flipBox4 {
+            0%,
+            100% {
+                transform: rotateX(90deg);
+                animation-timing-function: ease-out;
+            }
+            50% {
+                transform: rotateX(90deg) translateY(2em);
+                animation-timing-function: ease-in;
+            }
+        }
+
+        @keyframes flipBox5 {
+            from {
+                transform: translate(-50%, -50%) rotateX(-180deg) rotateY(0deg);
+            }
+            to {
+                transform: translate(-50%, -50%) rotateX(-360deg) rotateY(180deg);
+            }
+        }
+
+        @keyframes flipBox6 {
+            0%,
+            100% {
+                transform: translateY(-50%) translateZ(-1px) scale(1);
+                animation-timing-function: ease-out;
+            }
+            50% {
+                transform: translateY(-50%) translateZ(-1px) scale(1.5);
+                animation-timing-function: ease-in;
+            }
+        }
+    }
+
+    @media (prefers-reduced-motion) {
+        .flipBox_boxOuter,
+        .flipBox_box,
+        .flipBox_shadow {
+            animation-play-state: paused !important;
+        }
+
+        .flipBox_boxOuter {
+            transition: none;
+        }
+    }
+
+    .send-ans {
+        font-family: "Sora", sans-serif;
+        display: flex;
+        justify-content: space-around;
+    }
+}
