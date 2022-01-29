@@ -299,7 +299,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q32. When implemented on a public cloud, with what does Hadoop processing interact?",
         "options": [
@@ -350,7 +349,16 @@
         ],
         "correctAns": 2
     },
-    null,
+    {
+        "query": " Q37. To implement high availability, how many instances of the master node should you configure?",
+        "options": [
+            " one\r\n",
+            " zero\r\n",
+            " shared\r\n",
+            " two or more (https://data-flair.training/blogs/hadoop-high-availability-tutorial)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
     {
         "query": " Q38. Hadoop 2.x and later implement which service as the resource coordinator?",
         "options": [
@@ -431,7 +439,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q47 Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?",
         "options": [
@@ -492,7 +499,16 @@
         ],
         "correctAns": 1
     },
-    null,
+    {
+        "query": " Q53. Which feature is used to roll back a corrupted HDFS instance to a previously known good point in time?",
+        "options": [
+            " partitioning\r\n",
+            " snapshot [Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#:~:text=is%20not%20supported.-,Snapshots,known%20good%20point%20in%20time.)\r\n",
+            " replication\r\n",
+            " high availability\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
     {
         "query": " Q54. Hadoop Common is written in which language?",
         "options": [
@@ -522,10 +538,5 @@
             " remote\r\n\r\n"
         ],
         "correctAns": 3
-    },
-    null,
-    null,
-    null,
-    null,
-    null
+    }
 ]

@@ -529,7 +529,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q56. What is the Liskov substitution principle?",
         "options": [
@@ -569,6 +568,5 @@
             " C# Intermediate Language\r\n\r\n**Explanation**: [What is the full form of CIL?](https://ythi.net/abbreviations/english/what-does-cil-mean-what-is-the-full-form-of-cil/)\r\n\r\n"
         ],
         "correctAns": 2
-    },
-    null
+    }
 ]

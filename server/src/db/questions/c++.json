@@ -769,6 +769,5 @@
             " Yes, it causes a compiler error because one field is defined as having a size of 0.\r\n\r\n"
         ],
         "correctAns": 3
-    },
-    null
+    }
 ]

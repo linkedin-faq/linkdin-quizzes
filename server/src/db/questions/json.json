@@ -9,7 +9,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q3. Which JavaScript method converts a JavaScript value to Json?",
         "options": [
@@ -415,7 +414,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q44. Which data format is a JSON schema written in?",
         "options": [
@@ -486,7 +484,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q52. What data structure do you use to encode ordered information?",
         "options": [

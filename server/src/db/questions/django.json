@@ -507,7 +507,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q53. To expose an existing model via an API endpoint, what do you need to implement?\\*\\*",
         "options": [
@@ -578,7 +577,16 @@
         ],
         "correctAns": 3
     },
-    null,
+    {
+        "query": " Q60. In Django, what are used to customize the data that is sent to the templates?",
+        "options": [
+            " models\r\n",
+            " views\r\n",
+            " forms\r\n",
+            " serializers\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
     {
         "query": " Q61. To complete the conditional, what should this block of code end with?",
         "code": "shell\r\n% if sparles >= 50 %\r\n  Lots of sparkles!\r\n% elif sparkles == 42 %\r\n  The answer to life, the universe, and everything!\r\n",

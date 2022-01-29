@@ -69,7 +69,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q9. Which goal would you use with the Dependency plugin to determine which included dependencies are not used, as well as those you are using that you have not defined?",
         "options": [
@@ -411,7 +410,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q44. Which build plugin allows you to create a \"fat\" JAR file that contains all of the dependencies in the final JAR file?",
         "options": [
@@ -432,7 +430,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q47. What is one of the advantages of using properties in Maven?",
         "options": [
@@ -453,7 +450,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q50. For what purpose can plugins use the validate phase in the default lifecycle?",
         "options": [

@@ -229,7 +229,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Which strategy should you choose?",
         "options": [
@@ -530,7 +529,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q55. Which programming language is most susceptible to buffer overflow attacks?",
         "options": [

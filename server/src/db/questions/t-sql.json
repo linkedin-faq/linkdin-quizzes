@@ -323,7 +323,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q34. You would like to have a record added to a TableB every time a record is modified in TableA. What technique should you look at implementing?",
         "options": [
@@ -344,7 +343,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q37. What is the result of this query?",
         "options": [

@@ -305,7 +305,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q31. What is wrong with this script?",
         "code": "bash\r\n#!/bin/bash\r\nread -p \"Enter your pet type.\" PET\r\nif [ $PET = dog ] ;then\r\n    echo \"You have a dog\"\r\nfi\r\n",
@@ -604,8 +603,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
     {
         "query": " Q61. Which one is true?",
         "options": [
@@ -654,8 +651,18 @@
             " screen\r\n",
             " screen -X\r\n",
             " screen --shared\r\n",
-            " terminal -shared\r\n"
+            " terminal -shared\r\n\r\n"
         ],
         "correctAns": 1
+    },
+    {
+        "query": " Q66. Wich operator sends the output of ls to a file for later use??",
+        "options": [
+            " ls < filelist.txt\r\n",
+            " ls ¦ filelist.txt\r\n",
+            " ls > filelist.txt\r\n",
+            " ls - filelist.txt\r\n"
+        ],
+        "correctAns": 3
     }
 ]

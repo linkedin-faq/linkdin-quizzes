@@ -579,8 +579,48 @@
             " query\r\n",
             " parser\r\n",
             " bar\r\n",
-            " link\r\n"
+            " link\r\n\r\n"
         ],
         "correctAns": 1
+    },
+    {
+        "query": " Q.59 The search query \"How to make donuts without yeast\" is an example of what?",
+        "options": [
+            " fresh keyword\r\n",
+            " operative keyword\r\n",
+            " short-tail keyword\r\n",
+            " long-tail keyword\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q.60 What tool enables companies to display extra information within the natural search results without the need of any structured data?",
+        "options": [
+            " Google Input Tools\r\n",
+            " structured data testing tool\r\n",
+            " Google Tag Manager\r\n",
+            " Google My Business\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q.61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to  their website. How would you advise  your client about this strategy?",
+        "options": [
+            " Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.\r\n",
+            " It is best to have the blog on a subdirectory and build links to primary domain.\r\n",
+            " It is an advisable choice as it will enable interlinking between the domains and increase the number of links.\r\n",
+            " The blog should be on a separate URL to avouud building too many links between the same domain or IP.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q.62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as _____ content.",
+        "options": [
+            " non-indexable\r\n",
+            " irrelevant\r\n",
+            " biased\r\n",
+            " thin\r\n\r\n\r\n"
+        ],
+        "correctAns": 4
     }
 ]

@@ -288,7 +288,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q31. Single-line text can be added anywhere in a drawing. If middle-center justified text with height of 0 was required in model space that was 300 millimeters high, what workflow would you use?",
         "options": [
@@ -309,7 +308,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q34. When you are in a drawing and want to make an object's layer the current drafting layer, what command can you use?",
         "options": [
@@ -340,7 +338,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q38. An inscribed polygopoln gives you what type of point at the end of the polygon radius?",
         "options": [
@@ -381,7 +378,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q43. The Text Align (TEXTALIGN) command does more than just align text vertically or horizontally. Which TEXTALIGN setting allows you to set up evenly aligned text to a defined spacing in a drawing?",
         "options": [
@@ -392,7 +388,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q45. When using palettes in AutoCAD, why would you dock a palette and then use the auto-hide function?",
         "options": [
@@ -403,7 +398,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q47. In a complex drawing, it is sometimes difficult to select the geometry you wish to modify. You might want to move, scale, or rotate geometry and make sure the appropriate objects are selected. You can do this with window and crossing selections, but what other selection method can make this easier?",
         "options": [
@@ -414,7 +408,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q49. When drafting with object snaps and object snap tracking, what other drafting setting can you use to set object snap tracking points?",
         "options": [
@@ -455,7 +448,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q54. AutoCAD allows you to select individual objects cumulatively to create a selection set. You can remove individual objects from that selection by using a mouse click combined with which keystroke?",
         "options": [
@@ -665,7 +657,5 @@
             " Ctrl\r\n\r\n"
         ],
         "correctAns": 4
-    },
-    null,
-    null
+    }
 ]

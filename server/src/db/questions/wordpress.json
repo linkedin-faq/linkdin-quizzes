@@ -402,8 +402,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
     {
         "query": " Q43. Where can you find the official WordPress documentation and usage guide?",
         "options": [
@@ -424,7 +422,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q46. Which software development principle, often used in WordPress, aims to reduce the repetition of code?",
         "options": [
@@ -455,9 +452,6 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
-    null,
     {
         "query": " Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?",
         "options": [
@@ -468,7 +462,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q54. What is the process of marking the code you write so that it is ready for translation?",
         "options": [
@@ -630,7 +623,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q71. Which of these are the minimum files required to make a child theme?",
         "options": [

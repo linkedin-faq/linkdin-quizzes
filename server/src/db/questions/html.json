@@ -110,7 +110,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q13. What is the purpose of the `<samp>` element?",
         "options": [
@@ -206,7 +205,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q23. What is the best way to code three choices within a form so that the user can select only one item?",
         "code": null,
@@ -239,7 +237,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q27. What is the `<hr>`tag typically used for?",
         "options": [
@@ -323,7 +320,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q37. What should fill the blank below?",
         "code": "html\r\n<link href=\"phone.css\" rel=\"stylesheet\" _____=\"print\" />\r\n",
@@ -335,7 +331,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q39. Which choice uses the correct terminology in describing this markup: `<p>info</p>`?",
         "options": [
@@ -407,7 +402,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q47. Which choice is NOT a legal value for the **name** attribute within a `<meta>` tag?",
         "options": [
@@ -654,7 +648,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q72. When should you use the `<article>` element?",
         "options": [
@@ -726,7 +719,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q80. What is the primary purpose of HTML?",
         "options": [
@@ -758,7 +750,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q84. In this code, what is _target_?",
         "options": [
@@ -810,7 +801,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q90. What is wrong with this code snippet?",
         "code": "HTML\r\n<label>Address:</label>\r\n<input type=\"text\" name=\"address\" id=\"address-input\" />\r\n",

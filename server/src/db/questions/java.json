@@ -29,7 +29,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q5. What is the output of this code?",
         "code": "java\r\n1: class Main {\r\n2:   public static void main (String[] args) {\r\n3:     int array[] = {1, 2, 3, 4};\r\n4:     for (int i = 0; i < array.size(); i++) {\r\n5:        System.out.print(array[i]);\r\n6:     }\r\n7:   }\r\n8: }\r\n",
@@ -161,8 +160,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q19. What does this code print?",
         "code": "java\r\nSystem.out.print(\"apple\".compareTo(\"banana\"));\r\n",
@@ -583,7 +580,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q60. Use the magic power to cast a spell",
         "code": "java\r\npublic class MagicPower {\r\n    void castSpell(String spell) {}\r\n}\r\n",
@@ -628,7 +624,7 @@
         "correctAns": 2
     },
     {
-        "query": " Q64. What is not a java keyword",
+        "query": " Q64. Which is not a java keyword",
         "options": [
             " finally\r\n",
             " native\r\n",
@@ -916,8 +912,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q93. What is the output of this code?",
         "code": "java\r\n public class Main {\r\n    public static void main(String[] args) {\r\n      HashMap<String, Integer> pantry = new HashMap<>();\r\n\r\n      pantry.put(\"Apples\", 3);\r\n      pantry.put(\"Oranges\", 2);\r\n\r\n      int currentApples = pantry.get(\"Apples\");\r\n      pantry.put(\"Apples\", currentApples + 4);\r\n\r\n      System.out.println(pantry.get(\"Apples\"));\r\n    }\r\n}\r\n",
@@ -935,9 +929,9 @@
             " uses hashcode of objects when inserted\r\n",
             " contains unordred elements\r\n",
             " contains unique elements\r\n",
-            " contains sorted elements\r\n\r\n"
+            " contains sorted elements\r\n\r\n**Explanation**: HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.\r\n\r\n"
         ],
-        "correctAns": 2
+        "correctAns": 4
     },
     {
         "query": " Q95. What is the output?",
@@ -980,7 +974,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q100. Which class does not implement the java.util.Collection interface?",
         "options": [
@@ -997,8 +990,62 @@
             " `employees.collect(employee -> employee.getName());`\r\n",
             " `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`\r\n",
             " `employees.stream().map(Employee::getName).collect(Collectors.toList());`\r\n",
-            " `employees.stream().collect((e) -> e.getName());`\r\n"
+            " `employees.stream().collect((e) -> e.getName());`\r\n\r\n"
         ],
         "correctAns": 3
+    },
+    {
+        "query": " Q102. What is the correct return type for the `processFunction` method:",
+        "code": "\r\n____ processFunction(Integer number, Function<Integer, String> lambda) {\r\n    return lambda.apply(number);\r\n}\r\n",
+        "options": [
+            " Function<Integer, String>\r\n",
+            " Integer\r\n",
+            " String\r\n",
+            " Consumer\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q103. This code does not compile. What needs to be changed so that it does?",
+        "code": "\r\npublic enum Direction {\r\n    EAST(\"E\"),\r\n    WEST(\"W\"),\r\n    NORTH(\"N\"),\r\n    SOUTH(\"S\");\r\n\r\n    private final String shortCode;\r\n\r\n    public String getShortCode() {\r\n        return shortCode;\r\n    }\r\n}\r\n",
+        "options": [
+            " Add a constructor that accepts a `String` parameter and assigns it to the field `shortCode`.\r\n",
+            " Remove the `final` keyword for the field `shortCode`.\r\n",
+            " All enums need to be defined on a single line of code.\r\n",
+            " Add a setter method for the field `shortCode`.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q104. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?",
+        "options": [
+            " try-catch-finally\r\n",
+            " try-finally-close\r\n",
+            " try-with-resources\r\n",
+            " try-catch-close\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q105. What code should go in line 3?",
+        "code": "java\r\nclass Main {\r\n    public static void main(String[] args) {\r\n\r\n        array[0] = new int[]{1, 2, 3};\r\n        array[1] = new int[]{4, 5, 6};\r\n        array[2] = new int[]{7, 8, 9};\r\n        for (int i = 0; i < 3; i++)\r\n            System.out.print(array[i][1]); //prints 258\r\n    }\r\n}\r\n",
+        "options": [
+            " `int[][] array = new int[][];`\r\n",
+            " `int[][] array = new int[3][3];`\r\n",
+            " `int[][] array = new int[2][2];`\r\n",
+            " `int[][] array = [][];`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q106. Is this an example of method overloading or overriding?",
+        "code": "java\r\nclass Car {\r\n    public void accelerate() {}\r\n}\r\nclass Lambo extends Car {\r\n    public void accelerate(int speedLimit) {}\r\n    public void accelerate() {}\r\n}\r\n",
+        "options": [
+            " neither\r\n",
+            " both\r\n",
+            " overloading\r\n",
+            " overriding\r\n"
+        ],
+        "correctAns": 2
     }
 ]

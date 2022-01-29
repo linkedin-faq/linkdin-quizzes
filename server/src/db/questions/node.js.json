@@ -654,13 +654,23 @@
         "correctAns": 2
     },
     {
-        "query": " Q65. Which choice is not a subclass of the Error class?",
+        "query": " Q66. Which choice is not a subclass of the Error class?",
         "options": [
             " GlobalError\r\n",
             " TypeError\r\n",
             " RangeError\r\n",
-            " AssertionError\r\n"
+            " AssertionError\r\n\r\n"
         ],
         "correctAns": 1
+    },
+    {
+        "query": " Q67. What is Node built on?",
+        "options": [
+            " Python\r\n",
+            " V8 JavaScript engine\r\n",
+            " PHP\r\n",
+            " c\r\n\r\n"
+        ],
+        "correctAns": 2
     }
 ]

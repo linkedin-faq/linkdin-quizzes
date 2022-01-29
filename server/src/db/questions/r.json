@@ -246,7 +246,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q26. ournames is a character vector. What values does the statement below return to Cpeople?",
         "options": [
@@ -446,7 +445,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q45. A variable whose type is numeric can contain which items?",
         "options": [

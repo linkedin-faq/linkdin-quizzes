@@ -109,7 +109,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?",
         "options": [
@@ -230,7 +229,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q26. What is the most important thing to do before opening a computer case?",
         "options": [

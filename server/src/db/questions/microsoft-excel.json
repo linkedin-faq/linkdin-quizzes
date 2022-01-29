@@ -19,7 +19,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q4. If cell A3 contains the text THE DEATH OF CHIVALRY, what will the function =PROPER(A3) return?",
         "options": [
@@ -30,7 +29,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q6. When editing a cell, what do you press to cycle between relative, mixed, and absolute cell references?",
         "options": [
@@ -61,7 +59,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": ",,",
         "options": [
@@ -69,9 +66,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
-    null,
     {
         "query": " Q10. When using Goal Seek, you can find a target result by varying \\_ at most.",
         "options": [
@@ -82,7 +76,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q12. A cell contains the value 7.877 and you want it to display as 7.9. How can you accomplish this?",
         "options": [
@@ -143,8 +136,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
     {
         "query": " Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \\_.",
         "options": [
@@ -205,7 +196,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q27. Which formula returns the value in cell A1 of the worksheet named MySheet?",
         "options": [
@@ -216,7 +206,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q29. Which formula correctly counts the number of numeric values in both B4:E4 and G4:I4?",
         "options": [
@@ -257,7 +246,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \\_.",
         "options": [
@@ -348,7 +336,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q44. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?",
         "options": [
@@ -449,8 +436,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
     {
         "query": " Q56. The NOW() function returns the current date and time as 43740.665218. Which part of this value indicates the time?",
         "options": [
@@ -491,8 +476,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q62. What is `Colors[Inventory]` referring to here?",
         "options": [
@@ -503,7 +486,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q64. Which formula calculates the total value of a single row of cells across a range of columns?",
         "options": [
@@ -514,8 +496,6 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
     {
         "query": " Q67. Which function returns the number of characters in a text string in cell A1?",
         "options": [
@@ -526,10 +506,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q72. If a worksheet has the value 27 in cell B3, what value is returned by the `function =MOD(B3,6)`?",
         "options": [
@@ -578,9 +554,8 @@
             " element\r\n",
             " scalar\r\n\r\n"
         ],
-        "correctAns": 2
+        "correctAns": 1
     },
-    null,
     {
         "query": " Q78. How can you drill down into a PivotTable to show details?",
         "options": [
@@ -591,10 +566,6 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q83. Which is a valid Excel formula?",
         "options": [
@@ -635,7 +606,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q88. What is the result of the formula =4&3?",
         "options": [
@@ -666,7 +636,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q92. Which formula contains a valid absolute reference?",
         "options": [
@@ -677,8 +646,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q95. Cell A1 contains the number 3. Which formula returns the text Apple?",
         "options": [
@@ -689,7 +656,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q97. How would you search an entire workbook with **Find & Select**?",
         "options": [
@@ -700,7 +666,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q99. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\\_**.",
         "options": [
@@ -711,8 +676,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q103. You have a worksheet in Excel that will print as 10 pages. How can you ensure that the header row is printed at the top of each page?",
         "options": [
@@ -723,5 +686,24 @@
         ],
         "correctAns": 1
     },
-    null
+    {
+        "query": " Q105. What ribbon command on the Home tab can you use to change a cell's fill color automatically, based on the value of the cell?",
+        "options": [
+            " Conditional Formatting\r\n",
+            " Format\r\n",
+            " Cell Styles\r\n",
+            " Fill\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q108. Which chart type provides the best visual display of the releationship between two numeric variables?",
+        "options": [
+            " radar chart\r\n",
+            " box and whisker chart\r\n",
+            " XY scatter chart\r\n",
+            " combo chart"
+        ],
+        "correctAns": 3
+    }
 ]

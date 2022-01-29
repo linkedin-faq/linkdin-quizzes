@@ -69,7 +69,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q9. Which choice is not a valid trigger for an Azure functions?",
         "options": [
@@ -530,6 +529,5 @@
             " in\r\n\r\n"
         ],
         "correctAns": 4
-    },
-    null
+    }
 ]

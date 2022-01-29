@@ -159,8 +159,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q19. Which command builds an overview of document contents based on applied headings styles?",
         "options": [
@@ -231,7 +229,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q27. When you crop an image in a document, what happens to the image and the overall document file size?",
         "options": [
@@ -302,7 +299,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q35. What Word building block uses headings to help users identify the contents of a document?",
         "options": [
@@ -455,7 +451,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q51. What formatting must you use to use both portrait and landscape pages in the same Word document?",
         "options": [
@@ -567,7 +562,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q63. Which object can you NOT insert into a Word document from the Insert tab?",
         "options": [

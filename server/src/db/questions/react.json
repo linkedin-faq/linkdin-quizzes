@@ -982,7 +982,7 @@
             " `let dish = <h1 id={heading}>Mac and Cheese</h1>;`\r\n",
             " `let dish = <h1 id=\"heading\">Mac and Cheese</h1>;`\r\n",
             " `let dish = <h1 id:\"heading\">Mac and Cheese</h1>;`\r\n",
-            " `let dish = <h1 class=\"heading\">Mac and Cheese</h1>;`\r\n"
+            " `let dish = <h1 class=\"heading\">Mac and Cheese</h1>;`\r\n\r\n"
         ],
         "correctAns": 2
     }

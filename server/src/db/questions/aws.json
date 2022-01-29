@@ -210,7 +210,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q23. You have four front-end web servers behind a load balancer, which use NFS to access another EC2 instance that resizes and stores images for the front-end application. What security group policies should be assigned to these servers?",
         "options": [
@@ -450,7 +449,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q48. What privilege is specific to the AWS root account, and cannot be granted to another IAM user on the account?",
         "options": [
@@ -632,7 +630,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q66. To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of access and changes to your AWS infrastructure?",
         "options": [
@@ -673,7 +670,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q71. Which AWS service can host the web application server for a WordPress site?",
         "options": [

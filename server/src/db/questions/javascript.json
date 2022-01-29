@@ -1161,5 +1161,38 @@
             " A B C\r\n\r\n"
         ],
         "correctAns": 1
+    },
+    {
+        "query": " Q113. What will this code log to the console?",
+        "code": "js\r\nconst myNumbers = [1, 2, 3, 4, 5, 6, 7];\r\nconst myFunction = (arr) => {\r\n  return arr.map((x) => x + 3).filter((x) => x < 7);\r\n};\r\nconsole.log(myFunction(myNumbers));\r\n",
+        "options": [
+            " [4,5,6,7,8,9,10]\r\n",
+            " [4,5,6,7]\r\n",
+            " [1,2,3,4,5,6]\r\n",
+            " [4,5,6]\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q114. What does this code print to the console?",
+        "code": "js\r\nlet rainForestAcres = 10;\r\nlet animals = 0;\r\n\r\nwhile (rainForestAcres < 13 || animals <= 2) {\r\n  rainForestAcres++;\r\n  animals += 2;\r\n}\r\n\r\nconsole.log(animals);\r\n",
+        "options": [
+            " 2\r\n",
+            " 4\r\n",
+            " 6\r\n",
+            " 8\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q115. Which snippet could you add to this code to print \"YOU GOT THIS\" to the console?",
+        "code": "js\r\nlet cipherText = [...'YZOGUT QGMORTZ MTRHTILS'];\r\nlet plainText = '';\r\n\r\n/* Missing Snippet */\r\n\r\nconsole.log(plainText); //Prints YOU GOT THIS\r\n",
+        "options": [
+            "\r\n\r\n```js\r\nfor (let key of cipherText.keys()) {\r\n  plainText += key % 2 === 0 ? key : ' ';\r\n}\r\n```\r\n\r\n",
+            "\r\n\r\n```js\r\nfor (let [index, value] of cipherText.entries()) {\r\n  plainText += index % 2 !== 0 ? value : '';\r\n}\r\n```\r\n\r\n",
+            "\r\n\r\n```js\r\nfor (let [index, value] of cipherText.entries()) {\r\n  plainText += index % 2 === 0 ? value : '';\r\n}\r\n```\r\n\r\n",
+            "\r\n\r\n```js\r\nfor (let value of cipherText) {\r\n  plainText += value;\r\n}\r\n```\r\n\r\n"
+        ],
+        "correctAns": 3
     }
 ]

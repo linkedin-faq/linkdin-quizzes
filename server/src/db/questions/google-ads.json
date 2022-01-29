@@ -9,7 +9,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q3. Griff has noticed that his best-performing keywords has started to see an increased CPC, despite no changes on his part. What is the most likely reason for this?",
         "options": [
@@ -40,7 +39,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q7. Which choice is `not` an option when configuring `ad` extensions?",
         "options": [
@@ -71,9 +69,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
-    null,
     {
         "query": " Q13. An auction has a normal bid of $.50 but there is an active bid adjustment of -20%. What is the final bid amount?",
         "options": [
@@ -84,7 +79,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q15. Which ad rotation setting uses machine learning to prioritize ads based upon expected performance?",
         "options": [

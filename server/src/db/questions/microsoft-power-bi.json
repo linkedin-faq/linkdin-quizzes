@@ -1,5 +1,4 @@
 [
-    null,
     {
         "query": " Q1. A dataset that includes \\_ can be used to create a map visualization. (Select all that apply.)",
         "options": [
@@ -87,7 +86,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q10. Power BI's Publish to Web option allows you to embed visualizations within **\\_**. (Select all that apply.)",
         "options": [
@@ -98,7 +96,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Query Settings pane? (Select all that apply.)",
         "options": [
@@ -109,7 +106,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q&A box or O&A visual, Power BI will `\\_` your data to create a list of appropriate visualizations.",
         "options": [
@@ -450,7 +446,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q47. You can create a live connection to \\_ .",
         "options": [
@@ -481,7 +476,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q51. What does Power BI Desktop do when it cannot create a standard map visualization with the available data?",
         "options": [
@@ -492,8 +486,64 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
-    null,
-    null
+    {
+        "query": " Q56. A group admin for an app workspace cannot _______ in their workspace.",
+        "options": [
+            " remove users from the group\r\n",
+            " manage group membership\r\n",
+            " add users to the group\r\n",
+            " remove users from Power BI\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q57. In general, you should not add DAX calculated columns to your data moder if you are able to do what?",
+        "options": [
+            " all of these answers\r\n",
+            " Create the columns in Power Query during data load\r\n",
+            " Create a measure instead\r\n",
+            " Have it added to the data source\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q58. In the Power BI service, accessing a dataset for an uploaded Power BI file allows you what capabilities?",
+        "options": [
+            " the ability to see all of the dataset only in Power BI cloud services, but not in Power BI Desktop\r\n",
+            " front-end access to all data queries within this source without the ability to make back-end changes\r\n",
+            " connections to all the data queries and the ability to make ETL modifications to existing data\r\n",
+            " the option to select a single query from within the dataset and build new ETL processes form it\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q59. What is the recommended level of security for data extensions?",
+        "options": [
+            " Prompt the user before load\r\n",
+            " Allow any extension to load without warning\r\n",
+            " Allow only certified extensions to load\r\n",
+            " Load certified extensions and prompt the user for noncertified extensions\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q60. Your data model includes a Members data table and ten other tables, including these the lookup tables with unique IDs: City, State, and Country. How can you improve your data model for Power BI?",
+        "options": [
+            " A or C\r\n",
+            " A\r\n",
+            " D\r\n",
+            " A or B\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q61. Before you can use a custom visualization from the Power BI Marketplace, you need to ________ in, then ______ it to your Power BI account.",
+        "options": [
+            " download; upload\r\n",
+            " purchase; import\r\n",
+            " purchase; upload\r\n",
+            " upload; download\r\n"
+        ],
+        "correctAns": 2
+    }
 ]

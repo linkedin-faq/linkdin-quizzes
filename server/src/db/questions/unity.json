@@ -339,7 +339,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q36. The variable Transform.forward is a Vector3 measured in what?",
         "options": [
@@ -370,7 +369,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q40. Which statement best descibes the function Quaternion.Euler?",
         "options": [

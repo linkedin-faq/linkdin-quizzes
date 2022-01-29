@@ -212,7 +212,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q22. How can you select the following blockquote AND the list in a single call to jQuery() without chaining?",
         "code": "html\r\n<div class=\"quotes\">\r\n  <blockquote data-favorite=\"false\">A quote</blockquote>\r\n  <blockquote data-favorite=\"true\">A favorite quote</blockquote>\r\n  <blockquote data-favorite=\"false\">A quote</blockquote>\r\n  <blockquote data-favorite=\"false\">A quote</blockquote>\r\n</div>\r\n\r\n<ul class=\"menu-first\">\r\n  <li>Item 1</li>\r\n  <li>Item 2</li>\r\n  <li>Item 3</li>\r\n  <li>Item 4</li>\r\n</ul>\r\n",

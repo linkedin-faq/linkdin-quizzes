@@ -736,7 +736,7 @@
             " It transports the mail from user's computer to the mail server.\r\n",
             " It accepts mail and adds it to the mail queue for further processing.\r\n",
             " It stores the mail in a mail queue waiting for the MUA to download it.\r\n",
-            " It transports mail from one mail server to another.\r\n"
+            " It transports mail from one mail server to another.\r\n\r\n"
         ],
         "correctAns": 4
     }

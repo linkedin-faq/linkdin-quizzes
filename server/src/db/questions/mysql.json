@@ -81,7 +81,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q10. Which query would NOT be used to administer a MySQL server?",
         "options": [
@@ -392,7 +391,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q42.Which statement can you use to load data from a file into the table?",
         "options": [
@@ -403,7 +401,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q44. Which is the correct syntax of an extended insert statement?",
         "options": [
@@ -575,7 +572,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q62. In data migration, there is often a need to delete duplicate rows as part of data cleanup. Which statement works best?",
         "options": [
@@ -757,7 +753,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q81. Which choice is `not` an available string type for a column?",
         "options": [
@@ -768,7 +763,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q83. A stored routine is a set of SQL statements stored on the server and takes form as either a procedure or a function. Which statement cannot be used inside stored routines?",
         "options": [
@@ -789,7 +783,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q86. Why would you use a common table expression (CTE)?",
         "options": [
@@ -810,7 +803,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q89. What does this SQL statement return?",
         "code": "\r\nSELECT name FROM students WHERE name REGEXP '^to';\r\n",
@@ -822,7 +814,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q91. The left and right joins are also known as \\_.",
         "options": [
@@ -839,8 +830,18 @@
             " `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`\r\n",
             " `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`\r\n",
             " `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`\r\n",
-            " `CREATE VIEW v1 AS SELECT * FROM t1;`\r\n"
+            " `CREATE VIEW v1 AS SELECT * FROM t1;`\r\n\r\n"
         ],
         "correctAns": 4
+    },
+    {
+        "query": " Q95. What function finds the current time or date in MySQL?",
+        "options": [
+            " DATE()\r\n",
+            " GETDATE()\r\n",
+            " CURDATE()\r\n",
+            " CURRENT()\r\n"
+        ],
+        "correctAns": 3
     }
 ]

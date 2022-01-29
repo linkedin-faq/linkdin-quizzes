@@ -1,5 +1,4 @@
 [
-    null,
     {
         "query": " Q2. You support an IT infrastructure for an organization that has physical locations and WAN connections from the main office to each branch. You are designing a network where users at all locations have access to shared files, both online and offline. Which Windows technology is best for your design?",
         "options": [
@@ -70,7 +69,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q10. You have installed the Remote Desktop Services role. Which remote desktop mode comes with two built-in licenses?",
         "options": [
@@ -291,7 +289,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q33. A domain GPO must apply to users based on the location of the computer to which they are logging in. You set up this ability by using which group policy feature?",
         "options": [
@@ -312,7 +309,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q36. When installing the AD DS server role, which will NOT be installed as part of the requited features and services for AD DS to run?",
         "options": [
@@ -363,7 +359,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q42. The first ot root server in a PKI must have the Active Directory Certificate Services installed running which role service?",
         "options": [
@@ -474,7 +469,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q54. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?",
         "options": [
@@ -485,8 +479,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q57. You want to ensure there are redundant DHCP services avaliable for your network. What should you set up on your server to make this possible?",
         "options": [

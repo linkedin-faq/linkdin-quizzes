@@ -6,6 +6,7 @@ import SignUp from "./pages/SignUp";
 import NavBar from "./components/NavBar";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
+import Quiz from "./pages/Quiz";
 
 const App = function () {
   return (
@@ -18,6 +19,7 @@ const App = function () {
           <Route path="/services" element={<Services />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/:subject" element={<Quiz />} />
         </Routes>
       </Router>
     </div>

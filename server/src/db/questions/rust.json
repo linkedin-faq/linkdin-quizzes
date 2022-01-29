@@ -1,5 +1,4 @@
 [
-    null,
     {
         "query": " Q2. What do the vertical bars represent here?",
         "code": "rust\r\nstr::thread::spawn(|| {\r\n  println!(\"LinkedIn\");\r\n});\r\n",
@@ -132,6 +131,5 @@
             " skip\r\n\r\n"
         ],
         "correctAns": 3
-    },
-    null
+    }
 ]

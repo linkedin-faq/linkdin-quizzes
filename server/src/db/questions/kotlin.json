@@ -782,8 +782,60 @@
             " `val myInt = toInt(binaryStr)`\r\n",
             " `val myInt = binaryStr.toInt(\"0b\")`\r\n",
             " `val myInt = binaryStr.toInt()`\r\n",
-            " `val myInt = binaryStr.toInt(2)`\r\n"
+            " `val myInt = binaryStr.toInt(2)`\r\n\r\n"
         ],
         "correctAns": 4
+    },
+    {
+        "query": " Q75. In a Kotlin program, which lines can be marked with a label",
+        "options": [
+            " `Any program line can be marked with a label`\r\n",
+            " `Any statement can be marked with a label`\r\n",
+            " `Any expression can be marked with a lable` ([reference](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/))\r\n",
+            " `Only the beginning of loops can be marked with a label`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q76. All classes in Kotlin inherit from which superclass?",
+        "options": [
+            " `Default`\r\n",
+            " `Super`\r\n",
+            " `Any` ([reference](https://kotlinlang.org/docs/inheritance.html))\r\n",
+            " `Object`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q77. You have written a function, sort(), that should accept only collections that implement the `Comparable` interface. How can you restrict the function?",
+        "code": "kotlin\r\nfun sort(list: List<T>): List <T> {\r\n    return list.sorted()\r\n}\r\n",
+        "options": [
+            " `Add <T -> Comparable<T>> between the `fun` keyword and the function name`\r\n",
+            " `Add Comparable<T> between the `fun` keyword and the function name`\r\n",
+            " `Add <T : Comparable<T>> between the `fun` keyword and the function name` ([reference](https://kotlinlang.org/docs/generics.html#generic-functions))\r\n",
+            " `Add <T where Comparable<T>> between the `fun` keyword and the function name`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q78. Kotlin classes are final by default. What does final mean?",
+        "options": [
+            " final means that you cannot use interfaces with this class.\r\n",
+            " final means that this is the only file that can use the class.\r\n",
+            " final means that you cannot extend the class.([reference](https://kotlinlang.org/docs/inheritance.html))\r\n",
+            " final classes cannot be used in the finally section of a try/catch block.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q79. You have created an array to hold three strings. When you run the code bellow, the compiler displays an error. Why does the code fail?",
+        "code": "\r\nval names = arrayOf<String>(3)\r\nnames[3]= \"Delta\"\r\n\r\n",
+        "options": [
+            " Arrays use zero-based indexes. The value 3 is outside of the array's bounds\r\n",
+            " You accessed the element with an index but should have used.set().\r\n",
+            " You declared the array with val but should have used var\r\n",
+            " You cannot changes the value of an element of an array. You should have used a mutable list.\r\n"
+        ],
+        "correctAns": 1
     }
 ]

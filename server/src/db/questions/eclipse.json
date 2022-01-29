@@ -249,7 +249,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q27. How can you view all the commits for a single file?",
         "options": [
@@ -260,10 +259,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q32. What is required to create a Git commit?",
         "options": [
@@ -274,9 +269,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
-    null,
     {
         "query": " Q36. How do you connect to and debug a remote Java application/server?",
         "options": [

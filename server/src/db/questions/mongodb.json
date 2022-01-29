@@ -718,5 +718,25 @@
             " as a BSON object\r\n      "
         ],
         "correctAns": 1
+    },
+    {
+        "query": " Q74. How do you create a new MongoDB user?",
+        "options": [
+            " db.createUser({})\r\n",
+            " db.insert({user: 1})\r\n",
+            " db.customers.newUser({})\r\n",
+            " db.newUser({})\r\n      Reference: [MongoDB documentation](https://docs.mongodb.com/manual/tutorial/create-users/)\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q75. What is the internal data structure of a MongoDB document?",
+        "options": [
+            " JSON (JavaScript Object Notation)\r\n",
+            " BSON (Binary JSON)\r\n",
+            " ORM (object relational mode)\r\n",
+            " MBF (MongoDB binary format)\r\n      Reference: [MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)"
+        ],
+        "correctAns": 1
     }
 ]

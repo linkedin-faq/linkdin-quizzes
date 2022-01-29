@@ -641,7 +641,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q63. What is the best example of a superclass and subclass relationship?",
         "options": [
@@ -779,8 +778,68 @@
             " Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.\r\n",
             " Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.\r\n",
             " Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time\r\n",
-            " Composition is a process of collecting classes that provide a set of services for a particular domain\r\n"
+            " Composition is a process of collecting classes that provide a set of services for a particular domain\r\n\r\n"
         ],
         "correctAns": 2
+    },
+    {
+        "query": " Q77. Static polymorphism uses method ___ ?",
+        "options": [
+            " overloading\r\n",
+            " inheritance\r\n",
+            " abstaction\r\n",
+            " overriding\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q78. What does a concrete class not have?",
+        "options": [
+            " parents\r\n",
+            " pure virtual functions\r\n",
+            " attributes\r\n",
+            " purposes\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q79. How does dynamic typing complicate troubleshooting?",
+        "options": [
+            " It can be difficult to identify variables that are incorrectly typed\r\n",
+            " The dynamic variables can assume only limited values\r\n",
+            " Storage is fixed for dynamic variables\r\n",
+            " Static variables are more flexible than dynamic variables\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q80. What is the difference between early binding and late binding?",
+        "options": [
+            " Early binding is when a variable is assigned a value when a scope is created. Late binding is when a variable is assigned a value after a scope is exited\r\n",
+            " Early binding is when a variable is assigned a value when the program starts. Late binding is when a variable is assigned after the program is running\r\n",
+            " There is no difference. In both cases, variables are assigned values when a program has completed startup and is running\r\n",
+            " Early binding is when a variable is assigned its value at compile time. Late binding is when a variable is assigned a value at run time\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q81. What is the difference between an interface and an abstract class?",
+        "options": [
+            " Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface\r\n",
+            " Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface\r\n",
+            " Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces\r\n",
+            " Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q82. What parameters are required to be passed to a class constructor?",
+        "options": [
+            " reference to subclass // References to subclass are never required as you can simply Initialize subclass & use their object.\r\n",
+            " reference to base class // References to the base class are not required in Java, Javascript & Python\r\n",
+            " reference to this pointer // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.\r\n",
+            " none // Above 3 are incorrect so \"none\" is the answer\r\n\r\n\r\n\r\n\r\n\r\n"
+        ],
+        "correctAns": 4
     }
 ]

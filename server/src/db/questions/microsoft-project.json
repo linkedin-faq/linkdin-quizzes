@@ -39,7 +39,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q6. You want to switch the scheduling mode for a project from scheduling from a start date to scheduling from a finish date. This action will change the default constraint from As Soon As Possible to As Late As Possible. Which dialog box should you use to make this change?",
         "options": [
@@ -76,9 +75,9 @@
             " Inserted projects are calculated like summary tasks is selected.\r\n",
             " Calculate multiple critical paths is not selected.\r\n",
             " One of the Com add-ins is not selected.\r\n",
-            " Calculate project after each edit is set to Off.\r\n\r\n"
+            " Calculate project after each edit is set to Off.\r\n\r\n`The hint being \"The schedule has 10,000 tasks\" and the fact that the Gantt Chart does not update.`\r\n\r\n"
         ],
-        "correctAns": 2
+        "correctAns": 4
     },
     {
         "query": " Q10. You would like to understand which tasks are critical and which are not. When looking at the Gantt chart, how are these tasks identified by default?",
@@ -166,9 +165,9 @@
             " Start-to-Finish (SF)\r\n",
             " Finish-to-Finish(FF)\r\n",
             " Finish-to-Start (FS)\r\n",
-            " Start-to-Start (SS)\r\n\r\n"
+            " Start-to-Start (SS)\r\n\r\n**Reasoning:** the problem states that the finish of the secondary dishes should be the same with the finish of the main course. The main course takes longer to complete than the secondary dishes. If we set Start-to-Finish, the secondary dishes will begin after the main dish is complete and this is not what the problem stated.\r\n\r\n"
         ],
-        "correctAns": 1
+        "correctAns": 2
     },
     {
         "query": " Q19. A resource is overallocated in a project. This resource is responsible for two tasks that are to happen at the same time. The first of these tasks is on the critical path. Which solution should you use to remedy the overallocation?",
@@ -360,7 +359,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q39. You are using work breakdown structure (WBS) codes for an in-progress project. Due to some schedule changes, tasks have been moved around, which has modified the WBS. How do you fix the WBS codes?",
         "options": [
@@ -371,7 +369,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q41. When breaking down the work that needs to be done on a project, what is the smallest unit of work known as?",
         "options": [

@@ -41,7 +41,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q6. What is the output?",
         "code": "\r\nSub UseSum()\r\nDim TestArray() As Integer, Total As Integer\r\nReDim TestArray(1)\r\nTestArray(1) = 6\r\nReDim TestArray(2)\r\nTestArray(2) = 3\r\nTotal = WorksheetFunction.Sum(TestArray)\r\nEnd Sub\r\n",
@@ -53,7 +52,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q8. You have several variables to display on a user form, and there are too many variables to display at once. Which control best enables the user to see all the variables?",
         "options": [
@@ -64,7 +62,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q10. EmailAddress() is an array. It is declared by Dim EmailAddress(10) As String, and option Base 1 is in effect. How many rows and columns are in EmailAddress()?",
         "options": [

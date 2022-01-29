@@ -307,7 +307,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q32. You are working with an XML document that uses an XML schema. How do you ensure that an attribute must be specified for its corresponding element?",
         "options": [

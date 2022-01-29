@@ -130,7 +130,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q15. In what manner can you filter comments?",
         "options": [
@@ -411,7 +410,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q44. You are having trouble playing back a presentation smoothly. What should you do?",
         "options": [
@@ -571,8 +569,5 @@
             " Apply a cell style\r\n\r\n"
         ],
         "correctAns": 2
-    },
-    null,
-    null,
-    null
+    }
 ]

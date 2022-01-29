@@ -80,7 +80,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q10. In which panel do you assemble media in order to create sequence?",
         "options": [
@@ -131,7 +130,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q16. What adjustment can help return edge detail to video footage?",
         "options": [
@@ -152,7 +150,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q19. Which panel would you use to browse and import assets for maximum compatibility with Premiere Pro?",
         "options": [
@@ -163,7 +160,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q21. Which application does NOT support Dynamic Link?",
         "options": [
@@ -194,7 +190,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q25. Where is transparency data stored when compositing media?",
         "options": [
@@ -225,7 +220,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q29. Which formats does Adobe Media Encoder support? (Select three items.)",
         "code": "markdown\r\nA. GIF\r\nB. DCP\r\nC. QuickTime\r\nD. HEVC\r\nE. FLV\r\n",
@@ -268,7 +262,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q34. Your project has several sequences that are no longer needed. How would you use the Project Manager to produce a new version of the project that excludes the unwanted sequences?",
         "options": [
@@ -279,19 +272,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q48. To quickly arrange the panels in Adobe Premiere Pro for a specific task, what do you use?",
         "options": [

@@ -490,7 +490,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q48. Assuming the `DataService` has been registered in the providers for the application, which answer best describes what happens based on this component's constructor?",
         "code": "\r\n@Component({\r\n    ...\r\n})\r\nexport class OrderHistoryComponent {\r\n    constructor(private dataService: DataService) {}\r\n    ...\r\n}\r\n",
@@ -546,10 +545,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q56. What is the `async` pipe doing in this example?",
         "code": "ts\r\n@Component({\r\n  selector: 'app-users',\r\n  template: '<div *ngFor=\"let user of users | async\">{{ user.name }}</div>',\r\n})\r\nexport class UsersComponent implements OnInit {\r\n  users;\r\n  constructor(private httpClient: HttpClient) {}\r\n  ngOnInit(): void {\r\n    this.users = this.httpClient.get<{ name: string }>('users');\r\n  }\r\n}\r\n",

@@ -575,8 +575,28 @@
             " DELETE\r\n",
             " GET\r\n",
             " PUT\r\n",
-            " POST\r\n\r\n**Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)\r\n"
+            " POST\r\n\r\n**Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)\r\n\r\n"
         ],
         "correctAns": 4
+    },
+    {
+        "query": " Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?",
+        "options": [
+            " Uniform Interface\r\n",
+            " Cacheable\r\n",
+            " Stateless\r\n",
+            " Client-Server\r\n\r\n**Explanation:** [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q60. When you get a 429 code, what should you do next?",
+        "options": [
+            " Check you JSON structure.\r\n",
+            " Check the API uptime status.\r\n",
+            " Slow down your requests.\r\n",
+            " Check you API key.\r\n"
+        ],
+        "correctAns": 3
     }
 ]

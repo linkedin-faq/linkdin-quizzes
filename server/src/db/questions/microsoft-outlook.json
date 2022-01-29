@@ -39,7 +39,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q6. What address box should you use if you want to hide message recipients from each other?",
         "options": [
@@ -80,7 +79,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q11. What does Outlook automatically point out to you when you are invited to a meeting?",
         "options": [
@@ -101,7 +99,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q14. Removing redundant messages can be completed by utilizing what Outlook features?",
         "options": [
@@ -132,8 +129,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
     {
         "query": " Q19. There are two types of Outlook rules. One is server-based rules, which run for Exchange Server. What are the other kind, which in part or in whole cannot run on Exchange Server, and when do the execute?",
         "options": [
@@ -144,7 +139,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q21. How can you quickly locate emails with large attachment?",
         "options": [
@@ -173,7 +167,7 @@
             " Open the calendar in Day, Week, or Work Week view and drag the start time to 12 PM\r\n",
             " You must create a separate appointment for yourself from 12 PM to 1 PM\r\n\r\n"
         ],
-        "correctAns": 4
+        "correctAns": 3
     },
     {
         "query": " Q24. What is the fastest way to find a message sent by Bonnie Bradford that includes an attachment?",
@@ -245,7 +239,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q32. What is an appropriate use for voting buttons?",
         "options": [
@@ -287,7 +280,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q37. When accepting a meeting invitation, what happens if you click \"Do not send a response\"?",
         "options": [
@@ -338,8 +330,6 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
     {
         "query": " Q44. Each \\_ can be assigned two default signatures for \\_ .",
         "options": [
@@ -350,10 +340,26 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
-    null,
-    null,
+    {
+        "query": " Q45. While using Focused Inbox, you notice that Outlook sometimes puts important messages from a specific customer on th Another tab. How do you fix this for future messages?",
+        "options": [
+            " Right-click a message that was incorrectly organized and click Move to Focused.\r\n",
+            " Right-click a message that was incorrectly organized and click Always Move to Focused.\r\n",
+            " Close the Outlook application and relaunch.\r\n",
+            " Locate that customer in the People Hub and select the Focused check box.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q48. For efficiency, how should you save a search that you run frequently?",
+        "options": [
+            " as a search folder (Smart Folder on Mac)\r\n",
+            " none of these answers\r\n",
+            " as a column\r\n",
+            " as a criteria set\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
     {
         "query": " Q49. When you compose and email and click the To or Cc button, where does Outlook search first?",
         "options": [
@@ -394,8 +400,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
     {
         "query": " Q55. A meeting reminder showed up and you accidently closed it. What is the best way to bring back the reminder when in Calendar view?",
         "options": [
@@ -406,7 +410,16 @@
         ],
         "correctAns": 4
     },
-    null,
+    {
+        "query": " Q56. You received an email from someone and want to find other emails from this person. Witch method is not a way to see those emails across all folders?",
+        "options": [
+            " Highlight the email in the viewing pane and sort by From,\r\n",
+            " Enter the person's email address into the search box.\r\n",
+            " On the Folder tab, click New Search Folder and select Mail from specific people.\r\n",
+            " Right-click the email and select Find Related > Messages from sender.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
     {
         "query": " Q57. What does the ignore button allow you to do?",
         "options": [
@@ -417,7 +430,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q59. What happens when you drag an email to the Calendar icon?",
         "options": [
@@ -478,7 +490,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q66. You accidentally delete an email from your inbox. How can you retrieve the deleted email?",
         "options": [
@@ -519,13 +530,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q76. To keep your Inbox folders organized and lean, where should you move old messages?",
         "options": [
@@ -542,8 +546,18 @@
             " The folder is emptied and then moved to Deleted Items.\r\n",
             " You cannot delete a folder until its contents are deleted first.\r\n",
             " The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.\r\n",
-            " The folder and its contents are moved to Deleted Items at the same time.\r\n"
+            " The folder and its contents are moved to Deleted Items at the same time.\r\n\r\n"
         ],
         "correctAns": 4
+    },
+    {
+        "query": " Q79. What would be the best way to have emails sent directly to you in your Inbox, but hide emails for later review when you are in the Cc line?",
+        "options": [
+            " Create a Ccd folder, and then create a rule to move all messages where you are on the Cc line to that folder.\r\n",
+            " Create a rule to move all messages where you are in the Cc line to the Deleted items folder.\r\n",
+            " Turn on Focused Inbox.\r\n",
+            " Create a rule to apply conditional formatting to all messages where you are in the Cc line.\r\n\r\n"
+        ],
+        "correctAns": 1
     }
 ]

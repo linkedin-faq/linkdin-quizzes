@@ -80,7 +80,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q10. Some Business Process Model Notation (BPMN) shapes are further annotated by attaching a callout shape. Which option is associated with a callout shape?",
         "options": [
@@ -111,7 +110,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q14. You need to create a diagram showing many servers, switches, and other devices in a large corporate environment. Which diagram should you use?",
         "options": [
@@ -222,7 +220,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q26. Why would you use an icon set in your drawing?",
         "options": [

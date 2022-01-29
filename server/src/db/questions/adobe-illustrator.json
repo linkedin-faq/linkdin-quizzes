@@ -1,6 +1,4 @@
 [
-    null,
-    null,
     {
         "query": " Q3. Why would you use the Save Selection command?",
         "options": [
@@ -11,8 +9,6 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
     {
         "query": " Q6. When multiple objects are selected, how do you deselect just one of them?",
         "options": [
@@ -23,7 +19,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q8. How can you reverse the direction of all the arrows on the spiral in the image below?",
         "options": [
@@ -34,7 +29,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q10. When do you use the Knife tool?",
         "options": [
@@ -75,7 +69,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q15. You select a new color in the Color Picker and want to see several variations in different shades and tints. Which feature allows you to do this?",
         "options": [
@@ -106,7 +99,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q19. How could you quickly change all the hexagons to triangles in the image below?",
         "options": [
@@ -117,7 +109,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q21. When using the Live Paint Bucket tool to fill artwork with colors, you are unable to fill some areas due to the size of gaps between paths. What can you do in the Gap Options dialog box to fix this problem?",
         "options": [
@@ -138,7 +129,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q24. Which colorization method should you choose when using an art, scatter, or pattern brush to apply a spot color?",
         "options": [
@@ -159,7 +149,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q27. What command would you apply to make objects beneath the selected artwork visible inside the circle?",
         "options": [
@@ -200,7 +189,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q32. You would like the columns in a chart to cover the whole length of the category axis. What option would you choose?",
         "options": [
@@ -211,9 +199,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
-    null,
     {
         "query": " Q36. Why would you use change the Expand Mesh value when using the Puppet Warp tool?",
         "options": [
@@ -254,7 +239,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q41. You are working with an Illustrator file that includes a linked Photoshop file. Your client sends a new Photoshop file with a different name and asks you to replace the old one in the Illustrator file. Which command in the Links panel would you use to accomplish this?",
         "options": [
@@ -275,7 +259,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q44. Your client likes the pattern fill in the text below but wants the flowers to overlap more so there are smaller gaps. How could you accomplish that?",
         "options": [
@@ -306,7 +289,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q48. What can you do in order to edit text in just one placed instance of a symbol?",
         "options": [
@@ -327,7 +309,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q51. What happens when you assign a different color profile to an image?",
         "options": [
@@ -348,7 +329,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q54. Which of the following correctly defines the method by which Adobe Illustrator creates images.",
         "options": [
@@ -469,7 +449,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q67. When creating a new color swatch, how can you ensure that the appearance of objects colored with that swatch will update if you edit the swatch at a later time?",
         "options": [
@@ -480,8 +459,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
     {
         "query": " Q70. Drop shadows in a printed document appear pixelated. Which feature can you use to fix this?",
         "options": [
@@ -532,7 +509,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q76. Which option do you use to create the stroke shown below?",
         "options": [

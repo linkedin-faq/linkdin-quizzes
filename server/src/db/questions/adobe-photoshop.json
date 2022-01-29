@@ -29,7 +29,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q5. How do you crop a document without permanently discarding pixels along the edge?",
         "options": [
@@ -140,9 +139,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
-    null,
     {
         "query": " Q19. What can you use to save a common crop size?",
         "options": [
@@ -153,7 +149,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q21. To reduce the file size of a PDF, what should you do?",
         "options": [
@@ -184,8 +179,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
     {
         "query": " Q26. Which option would you use to clone while respecting perspective planes?",
         "options": [
@@ -296,7 +289,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q38. To save a panel layout arrangement, what should you create?",
         "options": [
@@ -367,7 +359,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q46. Which color space is best for web graphics?",
         "options": [
@@ -378,12 +369,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q53. Where do you find natural media brushes?",
         "options": [

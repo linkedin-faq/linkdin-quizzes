@@ -9,7 +9,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?",
         "options": [
@@ -50,7 +49,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q8. What is one of the most common use of Python's sys library?",
         "options": [
@@ -81,9 +79,6 @@
         ],
         "correctAns": 1
     },
-    null,
-    null,
-    null,
     {
         "query": " Q12. What built-in Python data type is commonly used to represent a stack?",
         "options": [
@@ -121,11 +116,10 @@
             " `class Game.LogicGame(): pass`\r\n",
             " `def Game(LogicGame): pass`\r\n",
             " `class Game(LogicGame): pass`\r\n",
-            " `def Game.LogicGame(): pass`\r\n\r\n`repeated but labels will be different`\r\n\r\n"
+            " `def Game.LogicGame(): pass`\r\n\r\n*Duplicate of question 10.*\r\n\r\n"
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q17. Which of these is NOT a characteristic of namedtuples?",
         "options": [
@@ -197,7 +191,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q25. If you don't explicitly return a value from a function, what happens?",
         "options": [
@@ -269,7 +262,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q33. What is the correct syntax for calling an instance method on a class named Game?",
         "code": null,
@@ -353,7 +345,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q42. What symbol(s) do you use to assess equality between two elements?",
         "options": [
@@ -385,7 +376,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q46. What is meant by the phrase \"space complexity\"?",
         "options": [
@@ -711,6 +701,7 @@
     },
     {
         "query": " Q78. What is the correct syntax for replacing the string apple in the list with the string orange?",
+        "code": "\r\nmy_list = ['kiwi', 'apple', 'banana']\r\n",
         "options": [
             " orange = my_list[1]\r\n",
             " my_list[1] = 'orange'\r\n",
@@ -770,7 +761,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q85. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?",
         "code": null,
@@ -784,7 +774,7 @@
     },
     {
         "query": " Q86. What would this recursive function print if it is called with no parameters?",
-        "code": "python\r\ndef count_recursive(n=1):\r\n    if n > 3:\r\n        return\r\n    print(n)\r\n\r\ncount_recursive(n + 1)\r\n",
+        "code": "python\r\ndef count_recursive(n=1):\r\n    if n > 3:\r\n        return\r\n    print(n)\r\n    \r\n    count_recursive(n + 1)\r\n",
         "options": [
             "\r\n\r\n```python\r\n1\r\n1\r\n2\r\n2\r\n3\r\n3\r\n```\r\n\r\n",
             "\r\n\r\n```python\r\n3\r\n2\r\n1\r\n```\r\n\r\n",
@@ -862,7 +852,7 @@
             " A class method holds all of the data for a particular class.\r\n",
             " A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.\r\n",
             " A class method is a regular function that belongs to a class, but it must return None\r\n",
-            " A class method is similar to a regular function, but a class method does not take any arguments.\r\n\r\n"
+            " A class method is similar to a regular function, but a class method does not take any arguments.\r\n\r\n*Duplicate version of Question 50.*\r\n\r\n"
         ],
         "correctAns": 2
     },
@@ -917,8 +907,6 @@
         ],
         "correctAns": 2
     },
-    null,
-    null,
     {
         "query": " Q101. What is the correct syntax for creating an instance method?",
         "options": [
@@ -963,10 +951,10 @@
         "query": " Q105. Which fragment of code will print exactly the same output as this fragment?",
         "code": "\r\nimport math\r\nprint(math.pow(2,10)) # prints 2 elevated to the 10th power\r\n",
         "options": [
-            " print(2^10)\r\n",
-            " print(2\\*\\*10)\r\n",
-            " y = [x*2 for x in range(1,10)]\r\n      print(y)\r\n",
-            " y = 1\r\n      for i in range(1,10):\r\n      y = y \\* 2\r\n\r\n      print(y)\r\n\r\n"
+            " \r\n```\r\nprint(2^10)\r\n```\r\n",
+            " \r\n```\r\nprint(2**10)\r\n```\r\n",
+            " \r\n```\r\ny = [x*2 for x in range(1,10)]\r\nprint(y)\r\n```\r\n",
+            "\r\n```\r\ny = 1\r\nfor i in range(1,10): \r\n    y = y * 2\r\nprint(y)\r\n```\r\n\r\n"
         ],
         "correctAns": 2
     },
@@ -1033,5 +1021,14 @@
         ],
         "correctAns": 4
     },
-    null
+    {
+        "query": " Q113. NumPy allows you to multiply two arrays without a for loop. This is an example of _.",
+        "options": [
+            " vectorization\r\n",
+            " attributions\r\n",
+            " accelaration\r\n",
+            " functional programming"
+        ],
+        "correctAns": 1
+    }
 ]

@@ -585,7 +585,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q60. What effect does private static have on the object service below?",
         "code": "java\r\n@SpringBootApplication\r\npublic class Question14 {\r\n    @Autowired\r\n    private static Service service;\r\n\r\n    public static void main(String[] args) {\r\n        SpringApplication.run(Question14.class, args);\r\n    }\r\n}\r\n\r\n@Component\r\nclass Service {}\r\n",
@@ -656,6 +655,5 @@
             " The Spring Boot app would begin shutting down.\r\n\r\nReason: By default, all the endpoints are enabled in Spring Boot Application except /shutdown; this is, naturally, part of the Actuator endpoints.\r\n\r\n"
         ],
         "correctAns": 1
-    },
-    null
+    }
 ]

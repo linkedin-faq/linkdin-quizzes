@@ -102,8 +102,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
     {
         "query": " Q13. What is the value of z after executing this code?",
         "code": "\r\nval y = List('a','b')\r\nval z = y::List('c')\r\n",
@@ -156,7 +154,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q19. What is the output of this function?",
         "code": "scala\r\ndef main () {\r\n     var a = 0\r\n     for (a<-1 until 5){println(a)}\r\n",
@@ -399,9 +396,6 @@
         ],
         "correctAns": 3
     },
-    null,
-    null,
-    null,
     {
         "query": " Q46. What type of exception is thrown when a precondition is violated?",
         "options": [

@@ -329,7 +329,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q34. You want to connect a DynamoDb stream to an AWS lamdba function. Which one of these object do you create.",
         "options": [
@@ -511,7 +510,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q53. You need to create a scalable database that supports immutable writes. What do you use?",
         "options": [

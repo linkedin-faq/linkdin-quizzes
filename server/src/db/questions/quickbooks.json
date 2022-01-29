@@ -1,5 +1,4 @@
 [
-    null,
     {
         "query": " Q2. You _cannot_ use the Enter Bills > Pay Bills approach to pay what type of bill?",
         "options": [
@@ -50,7 +49,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q8. When would the Expenses tab on a payroll liability check be used?",
         "options": [
@@ -61,9 +59,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
-    null,
     {
         "query": " Q12. Is it possible to merge two list entries?",
         "options": [
@@ -74,7 +69,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q14. Why is setting a closing date in QuickBooks a good practice?",
         "options": [
@@ -85,7 +79,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q16. How do you record a debit card purchase in QuickBooks?",
         "options": [
@@ -106,7 +99,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q19. You are setting up QuickBooks for the first time for a company that was established in 2001. During the Advanced/Detailed Setup, what should you enter as the start date?",
         "options": [

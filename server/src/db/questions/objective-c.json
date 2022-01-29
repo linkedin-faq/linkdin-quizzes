@@ -321,7 +321,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q33. What is significant about this function declaration?",
         "code": "\r\n    -(void)testFunc:(NSString**)str;\r\n",

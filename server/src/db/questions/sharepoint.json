@@ -279,12 +279,6 @@
         ],
         "correctAns": 4
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
         "query": " Q35. A SharePoint site document library has become disorganized with numerous folders. How can you disable folder creation without modifying any permissions?",
         "code": null,

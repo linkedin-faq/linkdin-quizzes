@@ -1154,7 +1154,7 @@
             " Floating the blue box increased its height.\r\n\r\n",
             " Floating the blue box on the left also moves it down.\r\n\r\n",
             " Floating the blue box actually shifts it to the right and down.\r\n\r\n",
-            " Floating the blue box took it out of document flow and the container is sized only to the sample text.\r\n"
+            " Floating the blue box took it out of document flow and the container is sized only to the sample text.\r\n\r\n"
         ],
         "correctAns": 4
     }

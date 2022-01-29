@@ -89,7 +89,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q11. You work for a power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?",
         "options": [
@@ -120,7 +119,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q15. How is machine learning related to artificial intelligence?",
         "options": [
@@ -151,7 +149,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q19. What is one reason not to use the same data for both your training set and your testing set?",
         "options": [
@@ -222,7 +219,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q27. Random forest is modified and improved version of which earlier technique?",
         "options": [
@@ -423,7 +419,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?",
         "options": [
@@ -554,7 +549,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q62. What does it mean to underfit your data model?",
         "options": [
@@ -594,7 +588,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?",
         "options": [
@@ -635,7 +628,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?",
         "options": [
@@ -656,7 +648,6 @@
         ],
         "correctAns": 3
     },
-    null,
     {
         "query": " Q75. Many of the advances in machine learning have come from improved?",
         "options": [
@@ -773,7 +764,7 @@
             " Create training clusters\r\n",
             " Remove predictors\r\n",
             " Use reinforcement learning\r\n",
-            " Add more predictors\r\n"
+            " Add more predictors\r\n\r\n"
         ],
         "correctAns": 4
     }

@@ -9,7 +9,6 @@
         ],
         "correctAns": 2
     },
-    null,
     {
         "query": " Q3. What is the Access string operator that joins or concatenates text strings together?",
         "options": [
@@ -70,7 +69,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q10. You want a form to appear automatically, whenever the database starts. How do you do this?",
         "options": [

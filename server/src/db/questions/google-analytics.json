@@ -210,7 +210,16 @@
         ],
         "correctAns": 1
     },
-    null,
+    {
+        "query": " Q22. You offer a downloadable music file called Sample Tone on your website. What is the best way to configure the components to track this event?",
+        "options": [
+            " Hit: Download // Event: Sample Tone // Content: Music\r\n",
+            " Category: Music // Action: Download // Label: Sample Tone\r\n",
+            " Category: Download // Event: Music // Label: Sample Tone\r\n",
+            " Hit: Music // Event: Download //Content: Sample Tone\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
     {
         "query": " Q23. You want to classify people who join your newsletter with a custom dimension for \"Newsletter Subscribers.\" What is the appropriate scope to apply to this custom dimension?",
         "options": [
@@ -750,8 +759,48 @@
             " from the Insights panel\r\n",
             " from the Secondary dimension menu\r\n",
             " all of these answers\r\n",
-            " with a table filter\r\n"
+            " with a table filter\r\n\r\n"
         ],
         "correctAns": 2
+    },
+    {
+        "query": " Q76. You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?",
+        "options": [
+            " Use virtual pageviews.\r\n",
+            " Configure a campaign URL.\r\n",
+            " Use the preview tag.\r\n",
+            " Use event tracking.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q77. It is a best practice to always have one of what kind of view?",
+        "options": [
+            " property\r\n",
+            " custom\r\n",
+            " segmented\r\n",
+            " unfiltered\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q78. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?",
+        "options": [
+            " Email\r\n",
+            " Referral\r\n",
+            " (other)\r\n",
+            " Direct\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q80. What is an interaction that causes data to be sent to Analytics?",
+        "options": [
+            " dimension\r\n",
+            " metric\r\n",
+            " hit\r\n",
+            " tag\r\n"
+        ],
+        "correctAns": 3
     }
 ]

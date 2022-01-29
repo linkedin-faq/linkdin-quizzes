@@ -1,5 +1,4 @@
 [
-    null,
     {
         "query": " Q2. Variables declared with the let keyword have what type of scope?",
         "options": [
@@ -225,7 +224,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q25. You find this code in a stylesheet. What is it being used for?",
         "code": "css\r\n.cf::after {\r\n  content: '';\r\n  display: block;\r\n  clear: both;\r\n}\r\n",
@@ -461,7 +459,6 @@
         ],
         "correctAns": 4
     },
-    null,
     {
         "query": " Q49. You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?",
         "options": [

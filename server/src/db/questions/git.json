@@ -220,8 +220,8 @@
         "options": [
             " use git show refs/push-notifications\r\n",
             " use git show push-notifications\r\n",
-            " use git show head/refs/push-notifications\r\n",
-            " use git show refs/head/push-notifications\r\n\r\n"
+            " use git show heads/refs/push-notifications\r\n",
+            " use git show refs/heads/push-notifications\r\n\r\n"
         ],
         "correctAns": 4
     },
@@ -798,7 +798,6 @@
         ],
         "correctAns": 1
     },
-    null,
     {
         "query": " Q81. What information does the git config file store?",
         "options": [

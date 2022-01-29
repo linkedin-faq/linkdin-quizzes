@@ -7,9 +7,11 @@ import path from "path";
 import cookieSession from "cookie-session";
 import morganHandler from "./middlewares/morgan";
 import errorHandler from "./middlewares/errorHandlers";
-import authRouter from "./routes/authRouter";
+import AuthRouter from "./routes/auth";
+import ApiRouter from "./routes/api";
 import "./utils/config/passport";
 import render from "./middlewares/render";
+import unknownEndPoint from "./middlewares/unknownEndpoint";
 
 const app = express();
 
@@ -30,7 +32,8 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.resolve("../client/build")));
-app.use("/auth", authRouter);
+app.use("/auth", AuthRouter);
+app.use("/api", ApiRouter);
 
 app.get("/", render);
 app.get("/sign-up", render);
@@ -39,5 +42,6 @@ app.get("/services", render);
 app.get("/contact-us", render);
 
 app.use(errorHandler);
+app.use(unknownEndPoint);
 
 export default app;
