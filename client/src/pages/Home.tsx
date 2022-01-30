@@ -1,11 +1,13 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
+import { NavLink } from "react-router-dom";
+import "./styles/home.scss";
 import QuizCard from "../components/QuizCard";
 import quizzesInfo from "../utils/quizzesInfo";
 
 const Home = function () {
   return (
-    <div>
+    <div className="home">
       <h1>Full stack web quizzes</h1>
       <Grid
         container
@@ -17,11 +19,13 @@ const Home = function () {
       >
         {quizzesInfo.map((quizInfo) => (
           <Grid item xs={6} sm={4} md={3} lg={2}>
-            <QuizCard
-              logoImg={quizInfo.img}
-              subject={quizInfo.subject}
-              description="lurem ipsum lurm ipsum"
-            />
+            <NavLink className="navlink" to="/:subject">
+              <QuizCard
+                logoImg={quizInfo.img}
+                subject={quizInfo.subject}
+                description="lurem ipsum lurm ipsum"
+              />
+            </NavLink>
           </Grid>
         ))}
       </Grid>
